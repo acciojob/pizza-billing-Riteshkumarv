@@ -66,7 +66,7 @@ public class Pizza {
     public void addTakeaway() {
         if(!beg) {
             SetB("Paperbag Added: 20\n");
-            Setprice(20);
+            SetP(20);
             beg = true;
         }
     }
