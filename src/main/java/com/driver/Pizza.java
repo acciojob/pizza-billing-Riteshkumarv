@@ -66,13 +66,12 @@ public class Pizza {
     public void addTakeaway() {
         if(!beg) {
             SetB("Paperbag Added: 20\n");
-            beg = true;
         }
     }
 
     public String getBill(){
         // your code goes here
-        bill += "Total Price: "+price;
+        bill+="Total Price: "+price+"\n";
         return this.bill;
     }
 }
